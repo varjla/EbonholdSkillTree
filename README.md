@@ -7,6 +7,7 @@ Ebonhold Skill Tree is a lightweight World of Warcraft AddOn (for the 3.3.5a cli
 
 - **Custom Keybind:** Maps `SHIFT+N` by default to open the Ebonhold Skill Tree.
 <img width="265" height="144" alt="Custom Keybind Feature" src="https://github.com/user-attachments/assets/0575b1e9-d230-493b-be0f-012a403cb91d" />
+
 - **Micro Button Tooltip Integration:** Seamlessly updates the game's Skill Tree micro button tooltip to display your currently bound shortcut in the native WoW gold text format (e.g., matching the style of `Game Menu (Escape)`).
 - **Dynamic Bindings:** If you change the keybind in the game's default Key Bindings menu, the tooltip updates automatically without any hardcoded text values.
 - **Localization Support:** Includes localized strings (and a chat notification on first load) for multiple languages out of the box (English, Spanish, French, German, Russian, Italian).
