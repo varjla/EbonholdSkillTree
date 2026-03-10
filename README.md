@@ -1,24 +1,25 @@
-
 # Ebonhold Skill Tree
 
-Ebonhold Skill Tree is a lightweight World of Warcraft AddOn (for the 3.3.5a client) designed specifically for the Ebonhold server. It introduces a fast and accessible way to open the custom Skill Tree interface through a custom keybind and integrates seamlessly into the default UI tooltips.
+A lightweight WoW 3.3.5a AddOn for the Ebonhold server that enhances the Skill Tree interface with search and usability features.
+
 
 ## Features
 
-- **Custom Keybind:** Maps `SHIFT+N` by default to open the Ebonhold Skill Tree.
+- **Custom Keybind:** `SHIFT+N` by default. Configurable in **Key Bindings → Ebonhold App**.
 <img width="265" height="144" alt="Custom Keybind Feature" src="https://github.com/user-attachments/assets/0575b1e9-d230-493b-be0f-012a403cb91d" />
+- **Dynamic Tooltips:** Micro button tooltips automatically show your current keybind in gold.
+- **Skill Search:** 
+  - **Native Look:** Blends into the bottom bar using the game's native input style.
+  - **Visual Match:** Highlights matching skills with a **red border** and dims others.
+  - **Smart Navigation:** Auto-centers the first result. Use the **Aim icon** or **counter** (e.g., `1/5`) at the bottom right to cycle through matches.
+<img width="1152" height="761" alt="searchbox" src="https://github.com/user-attachments/assets/22423dc1-8874-4405-92f6-0dc470923b71" />
 
-- **Micro Button Tooltip Integration:** Seamlessly updates the game's Skill Tree micro button tooltip to display your currently bound shortcut in the native WoW gold text format (e.g., matching the style of `Game Menu (Escape)`).
-- **Dynamic Bindings:** If you change the keybind in the game's default Key Bindings menu, the tooltip updates automatically without any hardcoded text values.
-- **Localization Support:** Includes localized strings (and a chat notification on first load) for multiple languages out of the box (English, Spanish, French, German, Russian, Italian).
 
 ## Installation
 
-1. Download the latest version of the AddOn.
-2. Extract the `EbonholdSkillTree` folder.
-3. Place the folder into your World of Warcraft `Interface\AddOns` directory:
-   `<Your WoW Directory>\Interface\AddOns\EbonholdSkillTree`
-4. Launch the game and ensure the AddOn is enabled in the character selection screen's "AddOns" button.
+1. Copy the `EbonholdSkillTree` folder to `Interface\AddOns\`.
+2. Reload or restart the game.
+
 
 ## Usage
 
@@ -31,4 +32,7 @@ You can change this keybind at any time:
 4. Set a new key for **Toggle Skill Tree**.
 5. Click **Okay**.
 
-Enjoy the AddOn! Hover over the custom Skill Tree micro button to see your assigned keybind perfectly integrated.
+
+## Localization
+
+Supported: EN, ES, MX, FR, DE, RU, IT.
