@@ -1,0 +1,7 @@
+## Interface: 30300
+## Title: Ebonhold Skill Tree
+## Notes: Addon para abrir el Skill Tree de Ebonhold con SHIFT+N
+## Author: Antigravity
+
+Bindings.xml
+core.lua

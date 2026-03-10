@@ -1,0 +1,13 @@
+<Bindings>
+    <Binding name="EBONHOLD_SKILLTREE" header="EBONHOLD_HEADER" default="SHIFT-N">
+        if SkillTreeMicroButton then
+            SkillTreeMicroButton:Click()
+        elseif skillTreeCanvas then
+            if skillTreeCanvas:IsShown() then
+                skillTreeCanvas:Hide()
+            else
+                skillTreeCanvas:Show()
+            end
+        end
+    </Binding>
+</Bindings>
