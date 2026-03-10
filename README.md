@@ -7,12 +7,14 @@ A lightweight WoW 3.3.5a AddOn for the Ebonhold server that enhances the Skill T
 
 - **Custom Keybind:** `SHIFT+N` by default. Configurable in **Key Bindings → Ebonhold App**.
 <img width="265" height="144" alt="Custom Keybind Feature" src="https://github.com/user-attachments/assets/0575b1e9-d230-493b-be0f-012a403cb91d" />
+
 - **Dynamic Tooltips:** Micro button tooltips automatically show your current keybind in gold.
 - **Skill Search:** 
   - **Native Look:** Blends into the bottom bar using the game's native input style.
   - **Visual Match:** Highlights matching skills with a **red border** and dims others.
   - **Smart Navigation:** Auto-centers the first result. Use the **Aim icon** or **counter** (e.g., `1/5`) at the bottom right to cycle through matches.
 <img width="1152" height="761" alt="searchbox" src="https://github.com/user-attachments/assets/22423dc1-8874-4405-92f6-0dc470923b71" />
+
 
 
 ## Installation
