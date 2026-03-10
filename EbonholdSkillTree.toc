@@ -4,4 +4,5 @@
 ## Author: Antigravity
 
 Bindings.xml
+localization.lua
 core.lua
